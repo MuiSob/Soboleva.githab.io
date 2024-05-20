@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+header{
+    background-image: url(images/background.jpg);
+    background-size: cover;
+    color: white;
+    baskground-color: black;
+}
+
+.name{
+    text-transform: uppercase;
+}
+
+.container{
+    max-width: 75%;
+    margin: 0 auto;
+}
+
+a.button{
+    min-width: 100px;/*Минимальная ширина кнопки*/
+    text-align: center;/*выравнивание текста по центру*/
+    display: inline-block; /* для размешения кнопки с новой строки от ширины экрана*/
+    padding: 50px;
+    background-color: brown;
+    text-decoration: none;
+    border-radius: 6px;
+    color: white;
+    margin: 12px 0;
+}
+
+a.button:hover{
+    background-color: blueviolet;
+   
+}
+form{
+    max-width: 40%;
+    margin-inline: ;
+}

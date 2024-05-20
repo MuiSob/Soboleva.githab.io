@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h2>Форма</h2>
+<div class="container">
+
+    <form action="https://httbin.org/post" method="post">
+        <fieldset>
+        
+            <legend>Базовые поля</legend>
+         <p> 
+             <label>
+            Текстовое поле
+            <input id="text"name="text-field" placeholder="Введите свой текст" required>
+             </label>
+        </p>
+        <p> 
+             <label>
+            Пароль
+            <input type="password"name="password" value="password" required>
+             </label>
+        </p>   
+        </fieldset>
+        <fieldset>
+            <legend>Поля со своим вводом </legend>
+            <p>
+                <label for="Ваш адрес электронной почты">
+                    <input type="email" name="email">
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> Множественный выбор</legend>
+            <p>
+                <label> простое текстовое поле
+                    <input type="text"name="text_1">
+                </label>
+            </p>
+            <label><input type="radio"value="1">1</label>
+            <label><input type="radio"value="2">2</label>
+            <label><input type="radio"value="3">3</label>
+            <label><input type="radio"value="4">4</label>
+            <label><input type="radio"value="5">5</label>
+        </fieldset>
+        <fieldset>
+            <legend> </legend>
+        </fieldset>
+        <input type="submit">
+    </form>
+</div>
+
+
+    <h2>Ссылка как кнопка</h2>
+
+    <a href="#" class="button"> Купить </a>
+    <a href="#" class="button"> Купить </a>
+    <a href="#" class="button"> Купить </a>
+
+</body>
+</html>
